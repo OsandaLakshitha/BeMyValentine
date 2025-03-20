@@ -1,0 +1,180 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffe4e1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .container .bg-image{
+    width: 40%;
+    max-width: 400px;
+    border-radius: 20px;
+    margin: 20px 0;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #ff1493;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .bg-image {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 20px;
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:first-of-type {
+    background-color: #ff69b4;
+    color: white;
+  }
+  
+  button:first-of-type:hover {
+    background-color: #ff1493;
+  }
+  
+  button:nth-of-type(2) {
+    background-color: #ff6347;
+    color: white;
+  }
+  
+  button:nth-of-type(2):hover {
+    background-color: #ff4500;
+  }
+
+  body {
+    font-family: "Poppins", sans-serif; /* Easy-to-read font */
+    text-align: center;
+    background-color: #ffe6e6; /* Soft romantic pink */
+    color: #8b0000; /* Deep red for romantic feel */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff0f5; /* Light pink background */
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1, h2 {
+    font-family: "Great Vibes", cursive; /* Romantic font for topics */
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif; /* Keep buttons readable */
+    background: #ff69b4; /* Romantic pink */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #ff1493; /* Darker pink on hover */
+    transform: scale(1.05);
+  }
+  
+  .secret-container {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    background-color: #fff0f5; /* Soft pink */
+    color: #8b0000; /* Deep red */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Centering the secret container */
+  .secret-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full screen height */
+  }
+  
+  h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .intro {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #ff69b4;
+  }
+  
+  .romantic-message {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d63384;
+    margin: 15px 0;
+  }
+  
+  .heart-animation {
+    font-size: 2rem;
+    animation: heartbeat 1s infinite;
+  }
+  
+  @keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+  }
+  
+  button {
+    font-size: 1.2rem;
+    font-family: "Poppins", sans-serif;
+    background: #ff69b4;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #ff1493;
+    transform: scale(1.05);
+  }
+  
